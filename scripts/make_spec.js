@@ -257,11 +257,6 @@ async function main() {
 }
 
 async function compile(dir, contractName) {
-  const compiled = await utils.compile(dir, contractName);
-  return {abi: compiled.abi, bytecode: compiled.evm.bytecode.object};
-}
-
-async function compile(dir, contractName) {
   upgradeableContracts = [
     "ValidatorSetAuRa", 
     "BlockRewardAuRa", 
