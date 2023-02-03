@@ -636,7 +636,7 @@ contract BlockRewardAuRaBase is UpgradeableOwned, IBlockRewardAuRa {
 
     // ============================================== Internal ========================================================
 
-    uint256 internal constant VALIDATOR_MIN_REWARD_PERCENT = 0; // 0%
+    uint256 internal constant VALIDATOR_MIN_REWARD_PERCENT = 20; // 20%
     uint256 internal constant REWARD_PERCENT_MULTIPLIER = 1000000;
 
     function _coinInflationAmount(uint256, uint256[] memory) internal view returns(uint256);

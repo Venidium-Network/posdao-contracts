@@ -13,7 +13,7 @@ contract BlockRewardAuRaCoins is BlockRewardAuRaBase, IBlockRewardAuRaCoins {
     /// This assumes that 1 staking epoch = 1 week
     /// i.e. Inflation Rate = 2.5/48/100 * 1 ether
     /// Recalculate it for different annual rate and/or different staking epoch duration.
-    uint256 public constant NATIVE_COIN_INFLATION_RATE = 520833333333333;
+    uint256 public constant NATIVE_COIN_INFLATION_RATE = 1041666666666667;
 
     // =============================================== Setters ========================================================
 
